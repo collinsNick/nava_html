@@ -1,0 +1,32 @@
+.make-money {
+  margin-top: 5rem;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  color: $white;
+  text-align: center;
+  background-color: $gray-3;
+
+  background-image: url("../images/mini_banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: overlay;
+
+  h4 {
+    margin-bottom: 4rem;
+  }
+
+  a,
+  a:hover {
+    text-decoration: none;
+    display: inline-block;
+    padding: 1.2rem 2.5rem;
+    background: $red;
+    border: none;
+    border-radius: 0.25rem;
+    color: $white;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1rem;
+  }
+}

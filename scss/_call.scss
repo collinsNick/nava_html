@@ -1,0 +1,12 @@
+.call {
+  @include container;
+  @include center-flex;
+  height: calc(75vh - 200px);
+  flex-direction: column;
+  color: $white;
+
+  &__input-cont {
+    margin-top: 5rem;
+    min-width: 50%;
+  }
+}

@@ -1,0 +1,32 @@
+.stats {
+  position: relative;
+  width: 60%;
+  margin: 0 auto;
+  padding: 2rem 0;
+  background: $white;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.3rem 1rem rgba(0, 0, 0, 0.1) !important;
+  display: flex;
+  top: -65px;
+
+  div {
+    width: 25%;
+    text-align: center;
+    border-right: solid 1px $gray-5;
+
+    h3 {
+      font-size: 1.8rem;
+      color: $gray-2;
+    }
+
+    p {
+      text-transform: capitalize;
+      color: $gray-4;
+      font-size: 1rem;
+    }
+  }
+
+  div:last-child {
+    border-right: none;
+  }
+}

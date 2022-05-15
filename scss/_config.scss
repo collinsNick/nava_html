@@ -1,0 +1,16 @@
+@mixin container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+@mixin center-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin media-not-lg {
+  @media screen and (max-width: $breakpoint-smaller) {
+    @content;
+  }
+}

@@ -1,0 +1,51 @@
+.boats {
+  @include container;
+  margin-top: 6rem;
+
+  .details {
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 1.5rem;
+  }
+
+  &__card {
+    position: relative;
+    text-decoration: none;
+  }
+
+  &__name {
+    position: absolute;
+    left: 1.5rem;
+    bottom: 4rem;
+    color: $white;
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+  }
+
+  &__location {
+    position: absolute;
+    bottom: 2rem;
+    left: 1.5rem;
+    color: $white;
+    text-transform: capitalize;
+    font-size: 1.1rem;
+    font-weight: 300;
+
+    .berths {
+      margin-left: 2rem;
+    }
+
+    .icon {
+      margin-right: 0.2rem;
+    }
+  }
+}
+
+.boat-rate-slash {
+  font-size: 0.8rem;
+  padding-left: 0.3rem;
+  padding-right: 0.3rem;
+}
